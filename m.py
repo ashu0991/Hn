@@ -479,7 +479,7 @@ bgmi_cooldown = {}
 COOLDOWN_TIME =0
 
 # @PrivateFileTg # Handler for /bgmi command
-@bot.message_handler(commands=['ashu'])
+@bot.message_handler(commands=['bgmi'])
 def handle_bgmi(message):
     user_id = str(message.chat.id)
     if user_id in allowed_user_ids:
